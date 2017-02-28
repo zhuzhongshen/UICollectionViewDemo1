@@ -15,6 +15,16 @@
 		F59DD30D1E63B49400630046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59DD30B1E63B49400630046 /* LaunchScreen.storyboard */; };
 		F59DD3181E63B49400630046 /* UICollectionViewDemo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD3171E63B49400630046 /* UICollectionViewDemo1Tests.m */; };
 		F59DD3231E63B49400630046 /* UICollectionViewDemo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD3221E63B49400630046 /* UICollectionViewDemo1UITests.m */; };
+		F59DD3331E63B78000630046 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD3321E63B78000630046 /* NSString+Extension.m */; };
+		F59DD33A1E63B81600630046 /* TagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD3391E63B81600630046 /* TagModel.m */; };
+		F59DD33D1E63B86F00630046 /* TagView.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD33C1E63B86F00630046 /* TagView.m */; };
+		F59DD3401E63B88F00630046 /* TagViewCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD33F1E63B88F00630046 /* TagViewCollectionViewCell.m */; };
+		F59DD3441E63BF1E00630046 /* TagGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD3431E63BF1E00630046 /* TagGroupModel.m */; };
+		F59DD34B1E63C4CF00630046 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD3481E63C4CF00630046 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		F59DD34C1E63C4CF00630046 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD34A1E63C4CF00630046 /* UIView+SDAutoLayout.m */; };
+		F59DD34F1E63CC5900630046 /* EqualSpaceFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD34E1E63CC5900630046 /* EqualSpaceFlowLayout.m */; };
+		F59DD3541E63D0FE00630046 /* loveheart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F59DD3531E63D0FE00630046 /* loveheart@2x.png */; };
+		F59DD3581E63D41B00630046 /* BAButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F59DD3571E63D41B00630046 /* BAButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,27 @@
 		F59DD31E1E63B49400630046 /* UICollectionViewDemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewDemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59DD3221E63B49400630046 /* UICollectionViewDemo1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewDemo1UITests.m; sourceTree = "<group>"; };
 		F59DD3241E63B49400630046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59DD3311E63B78000630046 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		F59DD3321E63B78000630046 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		F59DD3381E63B81600630046 /* TagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagModel.h; sourceTree = "<group>"; };
+		F59DD3391E63B81600630046 /* TagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagModel.m; sourceTree = "<group>"; };
+		F59DD33B1E63B86F00630046 /* TagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagView.h; sourceTree = "<group>"; };
+		F59DD33C1E63B86F00630046 /* TagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagView.m; sourceTree = "<group>"; };
+		F59DD33E1E63B88F00630046 /* TagViewCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagViewCollectionViewCell.h; sourceTree = "<group>"; };
+		F59DD33F1E63B88F00630046 /* TagViewCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagViewCollectionViewCell.m; sourceTree = "<group>"; };
+		F59DD3411E63BBF000630046 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		F59DD3421E63BF1E00630046 /* TagGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagGroupModel.h; sourceTree = "<group>"; };
+		F59DD3431E63BF1E00630046 /* TagGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagGroupModel.m; sourceTree = "<group>"; };
+		F59DD3461E63C4CF00630046 /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		F59DD3471E63C4CF00630046 /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		F59DD3481E63C4CF00630046 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		F59DD3491E63C4CF00630046 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		F59DD34A1E63C4CF00630046 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		F59DD34D1E63CC5900630046 /* EqualSpaceFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualSpaceFlowLayout.h; sourceTree = "<group>"; };
+		F59DD34E1E63CC5900630046 /* EqualSpaceFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualSpaceFlowLayout.m; sourceTree = "<group>"; };
+		F59DD3531E63D0FE00630046 /* loveheart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loveheart@2x.png"; sourceTree = "<group>"; };
+		F59DD3561E63D41B00630046 /* BAButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAButton.h; sourceTree = "<group>"; };
+		F59DD3571E63D41B00630046 /* BAButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +132,19 @@
 		F59DD2FC1E63B49400630046 /* UICollectionViewDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				F59DD3451E63C4CF00630046 /* SDAutoLayout */,
+				F59DD3301E63B77900630046 /* Catecory */,
 				F59DD3001E63B49400630046 /* AppDelegate.h */,
 				F59DD3011E63B49400630046 /* AppDelegate.m */,
 				F59DD3031E63B49400630046 /* ViewController.h */,
 				F59DD3041E63B49400630046 /* ViewController.m */,
+				F59DD3371E63B80A00630046 /* TagView */,
 				F59DD3061E63B49400630046 /* Main.storyboard */,
 				F59DD3091E63B49400630046 /* Assets.xcassets */,
 				F59DD30B1E63B49400630046 /* LaunchScreen.storyboard */,
 				F59DD30E1E63B49400630046 /* Info.plist */,
 				F59DD2FD1E63B49400630046 /* Supporting Files */,
+				F59DD3411E63BBF000630046 /* Define.h */,
 			);
 			path = UICollectionViewDemo1;
 			sourceTree = "<group>";
@@ -138,6 +173,63 @@
 				F59DD3241E63B49400630046 /* Info.plist */,
 			);
 			path = UICollectionViewDemo1UITests;
+			sourceTree = "<group>";
+		};
+		F59DD3301E63B77900630046 /* Catecory */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD3311E63B78000630046 /* NSString+Extension.h */,
+				F59DD3321E63B78000630046 /* NSString+Extension.m */,
+			);
+			path = Catecory;
+			sourceTree = "<group>";
+		};
+		F59DD3371E63B80A00630046 /* TagView */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD3551E63D41200630046 /* Button */,
+				F59DD3501E63D0BC00630046 /* Images */,
+				F59DD34D1E63CC5900630046 /* EqualSpaceFlowLayout.h */,
+				F59DD34E1E63CC5900630046 /* EqualSpaceFlowLayout.m */,
+				F59DD33B1E63B86F00630046 /* TagView.h */,
+				F59DD33C1E63B86F00630046 /* TagView.m */,
+				F59DD3421E63BF1E00630046 /* TagGroupModel.h */,
+				F59DD3431E63BF1E00630046 /* TagGroupModel.m */,
+				F59DD3381E63B81600630046 /* TagModel.h */,
+				F59DD3391E63B81600630046 /* TagModel.m */,
+				F59DD33E1E63B88F00630046 /* TagViewCollectionViewCell.h */,
+				F59DD33F1E63B88F00630046 /* TagViewCollectionViewCell.m */,
+			);
+			path = TagView;
+			sourceTree = "<group>";
+		};
+		F59DD3451E63C4CF00630046 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD3461E63C4CF00630046 /* SDAutoLayout.h */,
+				F59DD3471E63C4CF00630046 /* UITableView+SDAutoTableViewCellHeight.h */,
+				F59DD3481E63C4CF00630046 /* UITableView+SDAutoTableViewCellHeight.m */,
+				F59DD3491E63C4CF00630046 /* UIView+SDAutoLayout.h */,
+				F59DD34A1E63C4CF00630046 /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		F59DD3501E63D0BC00630046 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD3531E63D0FE00630046 /* loveheart@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F59DD3551E63D41200630046 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F59DD3561E63D41B00630046 /* BAButton.h */,
+				F59DD3571E63D41B00630046 /* BAButton.m */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +344,7 @@
 				F59DD30D1E63B49400630046 /* LaunchScreen.storyboard in Resources */,
 				F59DD30A1E63B49400630046 /* Assets.xcassets in Resources */,
 				F59DD3081E63B49400630046 /* Main.storyboard in Resources */,
+				F59DD3541E63D0FE00630046 /* loveheart@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59DD3581E63D41B00630046 /* BAButton.m in Sources */,
+				F59DD33A1E63B81600630046 /* TagModel.m in Sources */,
+				F59DD3401E63B88F00630046 /* TagViewCollectionViewCell.m in Sources */,
 				F59DD3051E63B49400630046 /* ViewController.m in Sources */,
 				F59DD3021E63B49400630046 /* AppDelegate.m in Sources */,
+				F59DD34F1E63CC5900630046 /* EqualSpaceFlowLayout.m in Sources */,
+				F59DD34C1E63C4CF00630046 /* UIView+SDAutoLayout.m in Sources */,
+				F59DD3441E63BF1E00630046 /* TagGroupModel.m in Sources */,
+				F59DD33D1E63B86F00630046 /* TagView.m in Sources */,
 				F59DD2FF1E63B49400630046 /* main.m in Sources */,
+				F59DD34B1E63C4CF00630046 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				F59DD3331E63B78000630046 /* NSString+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C5A22C422;
 				INFOPLIST_FILE = UICollectionViewDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.UICollectionViewDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +544,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9C5A22C422;
 				INFOPLIST_FILE = UICollectionViewDemo1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.UICollectionViewDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +620,7 @@
 				F59DD3291E63B49400630046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F59DD32A1E63B49400630046 /* Build configuration list for PBXNativeTarget "UICollectionViewDemo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +629,7 @@
 				F59DD32C1E63B49400630046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F59DD32D1E63B49400630046 /* Build configuration list for PBXNativeTarget "UICollectionViewDemo1UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +638,7 @@
 				F59DD32F1E63B49400630046 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
